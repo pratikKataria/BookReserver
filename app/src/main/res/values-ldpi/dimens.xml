@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin">20dp</dimen>
+    <dimen name="left_margin">32dp</dimen>
+    <dimen name="fontSize">17dp</dimen>
+    <dimen name="divider">5dp</dimen>
+    <dimen name="divider_dist">8dp</dimen>
+    <dimen name="box_width">150dp</dimen>
+    <dimen name="box_height">140dp</dimen>
+</resources>

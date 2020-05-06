@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "119419084886",
+    "firebase_url": "https://bookreservation-e44f3.firebaseio.com",
+    "project_id": "bookreservation-e44f3",
+    "storage_bucket": "bookreservation-e44f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119419084886:android:c112a99842deb660",
+        "android_client_info": {
+          "package_name": "com.example.bookreserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119419084886-mk8h7ujcik9g6q6lmuu8nts4ekv5hrtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookreserver",
+            "certificate_hash": "8b593eda0d0aa3f8b2cf9ad6d8f2d573b6c27be4"
+          }
+        },
+        {
+          "client_id": "119419084886-b2ebdukmgopkpmqupijn9rm657g5qmcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7_BER5KO5I1WcKMLX_HRV3JmgGWY7gjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119419084886-b2ebdukmgopkpmqupijn9rm657g5qmcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

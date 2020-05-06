@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff">
+
+    <item
+        android:id="@+id/home_nav_btn"
+        android:icon="@drawable/fill_home_icon"
+        android:color="@color/nav_item_color"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/get_book_nav_btn"
+        android:icon="@drawable/fill_book_icon"
+        android:color="@color/skyBlue"
+        android:title="@string/get_book" />
+    <item
+        android:id="@+id/view_book_nav_btn"
+        android:icon="@drawable/fill_qr_icon"
+        android:color="@color/purple"
+        android:title="@string/view_book" />
+    <item
+        android:id="@+id/meeting"
+        android:icon="@drawable/fill_meeting_ic"
+        android:color="@color/skyBlue"
+        android:title="metting" />
+
+</menu>

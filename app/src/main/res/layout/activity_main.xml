@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="146dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="@dimen/divider_dist"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/top_margin"
+        android:layout_marginTop="@dimen/left_margin"
+        android:fontFamily="moon"
+        android:text="Welcome"
+        android:textColor="@color/blacklevel8"
+        android:textSize="@dimen/LogoFontsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="131dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/bottomRack"
+        android:layout_width="228dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:foregroundGravity="center_horizontal"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <TextView
+        android:id="@+id/CDGI_Lib"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="moon"
+        android:text="CDGI LIBRARY"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <TextView
+        android:id="@+id/CDGI_Lib_advance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="moon"
+        android:text="for Advance users"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="290dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/name_pad" />
+
+    <Button
+        android:id="@+id/student_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/ic_button_skin"
+        android:clickable="true"
+        android:elevation="3dp"
+        android:fontFamily="moon"
+        android:text="Student"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/librarian_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_button_skin"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:fontFamily="moon"
+        android:padding="8dp"
+        android:text="librarian"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_text"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <ImageView
+        android:id="@+id/book1"
+        android:layout_width="17dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="72dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/view1"
+        app:layout_constraintStart_toStartOf="@+id/student_text"
+        app:srcCompat="@drawable/java_book" />
+
+    <ImageView
+        android:id="@+id/book2"
+        android:layout_width="15dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="@+id/book1"
+        app:layout_constraintStart_toEndOf="@+id/book1"
+        app:layout_constraintTop_toTopOf="@+id/book1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/andriod_book" />
+
+    <ImageView
+        android:id="@+id/book3"
+        android:layout_width="13dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="@+id/book2"
+        app:layout_constraintStart_toEndOf="@+id/book2"
+        app:layout_constraintTop_toTopOf="@+id/book2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/flutter_book" />
+
+    <ImageView
+        android:id="@+id/book4"
+        android:layout_width="20dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="fitXY"
+
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/book3"
+        app:layout_constraintStart_toEndOf="@+id/book3"
+        app:srcCompat="@drawable/kotline_book" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

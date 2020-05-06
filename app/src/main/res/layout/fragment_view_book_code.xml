@@ -1,0 +1,140 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.student_act.bookreserver.ViewBookCode">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/top_left_logo" />
+
+    <ImageView
+        android:id="@+id/image_qr_code"
+        android:layout_width="177dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_qr_svg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="@+id/include2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="295dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_qr_code">
+
+        <TextView
+            android:id="@+id/book_entry1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="@dimen/std_margin"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/ic_book_grey"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Bookname"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/author1"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/author"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Author"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/std_margin"
+            android:background="@color/blacklevel8"></View>
+
+        <TextView
+            android:id="@+id/book_entry2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/ic_book_grey"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Bookname"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/author2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/author"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Author"
+            android:inputType="textPersonName"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/std_margin"
+            android:background="@color/blacklevel8"></View>
+
+        <TextView
+            android:id="@+id/book_entry3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/ic_book_grey"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Bookname"
+            android:inputType="textPersonName"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/author3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/transparent"
+            android:drawableStart="@drawable/author"
+            android:drawablePadding="8dp"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:hint="Author"
+            android:inputType="textPersonName"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

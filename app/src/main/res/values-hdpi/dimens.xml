@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin">15dp</dimen>
+    <dimen name="left_margin">11dp</dimen>
+    <dimen name="fontSize">12dp</dimen>
+    <dimen name="LogoFontsize">35sp</dimen>
+    <dimen name="divider">5dp</dimen>
+    <dimen name="divider_dist">8dp</dimen>
+    <dimen name="box_width">235dp</dimen>
+    <dimen name="box_height">230dp</dimen>
+</resources>
